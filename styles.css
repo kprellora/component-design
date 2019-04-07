@@ -33,19 +33,17 @@ a {
 }
 
 table {
-
+	border-collapse: collapse;
+	width: 100%;
 }
 
-tr {
-
+tr:nth-child(even){
+	background-color: #f2f2f2;
 }
 
-th {
-
-}
-
-td {
-
+th, td {
+	text-align: left;
+	padding: 8px;
 }
 
 div {
