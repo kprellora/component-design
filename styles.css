@@ -1,15 +1,9 @@
 * {
 	font-family: 'Open Sans', sans-serif;
 }
-body{
-	font-size: 100%;
-}
-html {
-	/* font-size */
-}
 
-h1, h2, h3. h4, h5, h6 {
-	/* margins/spacing */
+body {
+	font-size: 100%;
 }
 
 h1 {
@@ -50,9 +44,8 @@ h6 {
 
 p {
 	font-size: 1em;
-		line-height: 1.5em;
-		margin-bottom: .75em;
-
+	line-height: 1.5em;
+	margin-bottom: .75em;
 }
 
 a:link {
@@ -91,6 +84,14 @@ th, td {
 	padding: 8px;
 }
 
+div {
+
+}
+
+img {
+
+}
+
 button {
 	background-color: #008080;
 	border: none;
@@ -104,29 +105,28 @@ button {
 	cursor: pointer;
 }
 
-
-.example{
-	background-color: #d9d9d9;
-	padding:.2em;
-	border-radius: 15px;
-}
-.breadcrumb{
+ul {
 
 }
+
+ol {
+
+}
+
+li {
+
+}
+
+
 p.example {
 border-style: outset;
-
 }
 
-.heading, .paragraph, .list, .link, .button, .breadcrumb{
-background-color:	#ececec;
-padding: .1em;
-border-radius: 15px;
-}
+augusto:
+links and all related to Links, buttons
 
-.unordered, .ordered{
-	background-color:	white;
-	padding: .1em;
-	border-radius: 15px;
+Karren:
+margins, spacing, headers, paragraphs
 
-}
+Sam:
+lists, breadcrumbs, borders
