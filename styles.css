@@ -1,7 +1,9 @@
 * {
 	font-family: 'Open Sans', sans-serif;
 }
-
+body{
+	font-size: 100%;
+}
 html {
 	/* font-size */
 }
@@ -11,20 +13,45 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	/* font-size */
+	font-size: 2.25em;
+	line-height: 1.33em;
+	margin-bottom: .67em;
 }
 
-h2 {}
+h2 {
+	font-size: 1.75em;
+	line-height: 1.29em;
+	margin-bottom: .64em;
+}
 
-h3 {}
+h3 {
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: .5em;
+}
 
-h4 {}
+h4 {
+	font-size: 1.25em;
+	line-height: 1.2em;
+	margin-bottom: .6em;
+}
 
-h5 {}
+h5 {
+	font-size: 1.125em;
+	line-height: 1.33em;
+	margin-bottom: .67em;
+}
 
-h6 {}
+h6 {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: .75em;
+}
 
 p {
+	font-size: 1em;
+		line-height: 1.5em;
+		margin-bottom: .75em;
 
 }
 
@@ -162,13 +189,15 @@ ul {
 
 ol {
 
+.example{
+	background-color: #d9d9d9;
+	padding:.2em;
+	border-radius: 15px;
 }
-
-li {
+.breadcrumb{
 
 }
-
-
 p.example {
 border-style: outset;
+
 }
