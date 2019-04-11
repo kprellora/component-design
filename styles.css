@@ -92,7 +92,14 @@ tr:nth-child(even){
 	background-color: #f2f2f2;
 }
 
-th, td {
+th{
+	text-align: left;
+	padding: 8px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+td {
 	text-align: left;
 	padding: 8px;
 }
