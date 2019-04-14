@@ -18,27 +18,6 @@ a{
 
 }
 
-table {
-	border-collapse: collapse;
-	width: 100%;
-}
-
-tr:nth-child(even){
-	background-color: #f2f2f2;
-}
-
-th{
-	text-align: left;
-	padding: 8px;
-	background-color: #000000;
-	color: #ffffff;
-}
-
-td {
-	text-align: left;
-	padding: 8px;
-}
-
 .topnav{
   overflow: hidden;
   background-color: #990000;
