@@ -1,3 +1,6 @@
+
+
+/* Main Website Styling */
 * {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -202,34 +205,6 @@ p.example {
 	border-radius: 10px;
 }
 
-/* CSS/HTML for palattes taken from https://hit226.github.io/sample-styleguide/. Colors taken from CDU style guide. */
-
-.colour {
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-	border: 1px solid black;
-
-}
-
-.colour--primary {
-	background: #211545;
-}
-.colour--secondary {
-	background: #2b636f;
-}
-
-.colour--dark {
-	background: #404040;
-}
-
-.colour--light {
-	background: white;
-}
-
-.colour--highlight {
-	background: #83d2d4;
-}
 
 /* CSS for the style guide html file */
 
@@ -238,4 +213,72 @@ p.example {
 	border-radius: 3px;
 	padding: 1em;
 	margin: 1em 0;
+}
+
+/* Card Styling */
+* {box-sizing: border-box;}
+
+body{
+	background:gray;
+	text-align: center;
+  width: 100%;
+  }
+
+h1{
+  font-size: 1.5em;
+}
+
+p{
+  font-size: .875em;
+  padding:.5em;
+}
+
+.card button{
+border-radius: 15px;
+padding: 1em;
+
+
+}
+
+.card {
+	background:white;
+  box-shadow: 2px 8px 2px 2px #ccc;
+}
+
+.title{
+	padding: 1em;
+}
+
+.action{
+  padding: 8px;
+}
+
+
+.image{
+	height: 10em;
+	padding-top:  1em;
+  width: 50%;
+}
+
+@media screen and (min-width: 1200px){
+
+	body{
+	  padding-left : 30em;
+	  padding-right: 30em;
+	}
+	.card-img{
+		height: 5em;
+	  width: 40%;
+	}
+	.card:hover{
+		transform: scale(1.10);
+		}
+
+}
+@media screen and (max-width: 1200px){
+	.card button{
+	border-radius: 15px;
+	font-size: 5em;
+	padding: 1em;
+	}
 }
