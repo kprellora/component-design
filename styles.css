@@ -202,6 +202,34 @@ p.example {
 	border-radius: 10px;
 }
 
+/* CSS/HTML for palattes taken from https://hit226.github.io/sample-styleguide/. Colors taken from CDU style guide. */
+
+.colour {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid black;
+
+}
+
+.colour--primary {
+	background: #211545;
+}
+.colour--secondary {
+	background: #2b636f;
+}
+
+.colour--dark {
+	background: #404040;
+}
+
+.colour--light {
+	background: white;
+}
+
+.colour--highlight {
+	background: #83d2d4;
+}
 
 /* CSS for the style guide html file */
 
