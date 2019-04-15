@@ -144,6 +144,12 @@ section{
   box-shadow: none;
 }
 
+div.copyright{
+  text-align: center;
+  height: 3rem;
+  margin-top: -3rem;
+}
+
 @media screen and (min-width: 70px){
     .card-wrapper{
       flex-direction: row;
