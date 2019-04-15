@@ -1,16 +1,10 @@
 * {
 	font-family: 'Open Sans', sans-serif;
 }
-body{
+
+body {
 	font-size: 100%;
 	padding: 1em;
-}
-html {
-	/* font-size */
-}
-
-h1, h2, h3, h4, h5, h6 {
-	/* margins/spacing */
 }
 
 h1 {
@@ -184,17 +178,6 @@ button {
 		color: #000000;
 }
 
-ul {
-
-}
-
-ol {
-}
-
-.breadcrumb{
-
-}
-
 p.example {
 	border-style: outset;
 	background-color: #d9d9d9;
@@ -209,7 +192,6 @@ p.example {
 	height: 50px;
 	border-radius: 50%;
 	border: 1px solid black;
-
 }
 
 .colour--primary {
